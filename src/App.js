@@ -45,7 +45,6 @@ class App extends Component {
           <Grid style={{
             display: 'flex',
             justifyContent: 'center',
-            padding: 30,
           }} item xs={6}>
             <Card2 />
           </Grid>
@@ -66,3 +65,4 @@ class App extends Component {
 }
 
 export default withStyles(styles)(App);
+
